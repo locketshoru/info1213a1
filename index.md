@@ -1,0 +1,109 @@
+<!doctype html>
+<head>
+
+  <meta charset="utf-8">
+
+  <title>INFO1213 - A1</title>
+  <meta name="description" content="INFO1213 - Assignment 1">
+  <meta name="author" content="DorothieSlingsby">
+
+  <link href="info1213a1.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Proxima%20Nova' rel='stylesheet'>
+
+
+</head><body>
+<div class="container">
+
+<!-- Header / Buttons -->
+<div class="header">
+  <div class="buttons">
+    <div class="left">
+      <p><a href="index.html">home</a></p>
+    </div>
+
+    <div class="right">
+      <p><a href="about.html">about</a></p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Banner -->
+<div class="banner">
+  <img src="banner.png" alt="banner">
+  <h3>in all that time denies</h3>
+  <p>aries avenir; amateur photographer</p>
+</div>
+
+<!-- Portfolio -->
+<div class="portfolio">
+
+  <div class="intro"><p>lorem ipsum dolor sit amet. <br/> lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet.  <br/> lorem ipsum dolor sit amet. <br/>
+
+
+  </p></div>
+
+  <div class="box"> <!-- Asphodel -->
+    <img src="asphodel.jpg" alt="image" />
+    <div class="boxtitle">
+      <p>the asphodel fields</p>
+    </div>
+    <div class="description">
+      <p>taken 04/15. a brutal place deep within the underworld, but somehow green.</p>
+    </div>
+  </div>
+
+  <div class="box"> <!-- Roses -->
+    <img src="roses.jpg" alt="image" />
+    <div class="boxtitle">
+      <p>the pisces temple</p>
+    </div>
+    <div class="description">
+      <p>taken  07/25, at sunrise, i don't recommend taking that walk alone, ever.</p>
+    </div>
+  </div>
+
+  <div class="box"> <!-- Fire -->
+    <img src="fire.jpg" alt="image" />
+    <div class="boxtitle">
+      <p>the cancer temple</p>
+    </div>
+    <div class="description">
+      <p>taken 09/12. do you think sage and hakurei clean up in there? i'm thinking not likely.</p>
+    </div>
+  </div>
+
+  <div class="box"> <!-- Gates -->
+    <img src="skies.jpg" alt="image" />
+    <div class="boxtitle">
+      <p>the fallen skies</p>
+    </div>
+    <div class="description">
+      <p>taken forward in time, roughly april. a peaceful future that may never be.</p>
+    </div>
+  </div>
+
+  <div class="box"> <!-- Sanctuary -->
+    <img src="sanctuary.jpg" alt="image" />
+    <div class="boxtitle">
+      <p>the fields of sanctuary</p>
+    </div>
+    <div class="description">
+      <p>taken back in time, before the war. a little crumbly on the roots, but strong.</p>
+    </div>
+  </div>
+
+  <div class="box"> <!-- Shaka -->
+    <img src="shaka.jpg" alt="image" />
+    <div class="boxtitle">
+      <p>virgo shaka</p>
+    </div>
+    <div class="description">
+      <p>taken forward in time, june? i've seen this guy before. finally got a good picture.</p>
+    </div>
+  </div>
+
+</div></div>
+
+</body>
+</html>
