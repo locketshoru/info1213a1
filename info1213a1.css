@@ -1,0 +1,162 @@
+html {
+ 	text-align:center;
+ 	height:100%;
+}
+body {
+	background-color: #000720;
+	font-family: 'Proxima Nova', sans-serif;
+	height:100%;
+}
+.container {
+	background-color: #043241;
+	position: relative;
+	margin: auto;
+	max-width: 1200px;
+	width: 85%;
+	min-height: 100%;
+	transform: translate(0, 0);
+}
+
+/* Header */
+.header {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	max-width: 1200px;
+}
+.buttons {
+	position: relative;
+	margin: 0 auto;
+	height: 100px;
+	width: 85%;
+	max-width: 1200px;
+}
+.left, .right {
+	background-color: #A1E2F9;
+	position: absolute;
+	bottom: 0px;
+	width: 126px;
+    height: 34px;
+    line-height: 5px;
+    z-index: 5;
+}
+.left {
+    left: 0%;
+}
+.right {
+	right: 0%;
+}
+.left p, .right p {
+	text-align: center;
+}
+.left a, .right a {
+	text-decoration: none;
+}
+
+
+/* Banner */
+.banner {
+	position: absolute;
+	max-width: 1200px;
+	width: 100%;
+	height: 40%;
+	top: 140px;
+	max-height: 80%;
+	z-index: 1;
+}
+.banner img {
+	z-index: 1;
+	position: relative;
+	max-width: 1200px;
+	width: 100%;
+	height: 100%;
+}
+.banner h3 {
+	position: absolute;
+	white-space: nowrap;
+	width: 20%;
+	right: 20%;
+	top: 40%;
+	z-index: 2;
+}
+.banner p {
+	position: absolute;
+	white-space: nowrap;
+	right: 15%;
+	top: 45%;
+	z-index: 2;
+}
+
+
+/* Portfolio + Intro */
+.portfolio {
+	background-color: #043241;
+	position: absolute;
+	width: 100%;
+	max-width: 1200px;
+	height: max-content;
+	/* firefox, webkit, opera, standard */
+	 top: -moz-calc(40% + 140px);
+	 top: -webkit-calc(40% + 140px);
+	 top: -o-calc(40% + 140px);
+	 top: calc(40% + 140px);
+}
+.intro {
+	background-color: #067A87;
+	width: 95%;
+	margin: 2% auto;
+	padding: 0.75%;
+}
+.intro img {
+	/* STUFF GOES HERE */
+	background-color: #37B582;
+	float: left;
+	padding: 1%;
+	margin: 0 1% 1% 0;
+	width: 25%;
+	height: 25%;
+}
+.box {
+	background-color: #067A87;
+	display: inline-block;
+	width: 20%;
+	margin: 0.75%;
+	margin-top: 3%;
+	z-index: 1;
+	clear: both;
+}
+/* dynamicness of boxes for smaller screens */
+@media screen and (max-width: 900px) {
+  .box { width: 28%; }}
+@media screen and (max-width: 750px) {
+  .box { width: 40%; }}
+@media screen and (max-width: 600px) {
+  .box { width: 80%; }}
+
+.box img {
+	width: 100%;
+}
+.boxtitle {
+	background-color: #37B582;
+	width: 95%;
+	height: 1.25em;
+	margin: 0 auto;
+}
+.boxtitle p {
+	text-transform: uppercase;
+	text-overflow: hidden;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.description {
+	width: 85%;
+	margin: 5% auto;
+	overflow: scroll;
+	height: 6em;
+	text-overflow: hidden;
+	overflow: hidden;
+}
+
+
+/* About Box */
+
