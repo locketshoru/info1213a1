@@ -144,7 +144,6 @@ body {
 }
 .boxtitle p {
 	text-transform: uppercase;
-	text-overflow: hidden;
 	overflow: hidden;
 	white-space: nowrap;
 }
@@ -153,7 +152,6 @@ body {
 	margin: 5% auto;
 	overflow: scroll;
 	height: 6em;
-	text-overflow: hidden;
 	overflow: hidden;
 }
 
